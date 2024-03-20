@@ -1,0 +1,12 @@
+Splash Screen
+Link : https://blog.stackademic.com/creating-a-splash-screen-in-your-react-web-app-2bdde78beb2b
+Repo : https://github.com/amankishore32/aka-react-splash-screen
+
+Card Stack 
+Link : https://codepen.io/fossheim/pen/MWwOBwx
+             
+Framer Motion with Chakra UI
+Link : https://chakra-ui.com/getting-started/with-framer
+
+Get Random Question from Array
+https://www.shecodes.io/athena/10246-how-to-show-random-questions-in-a-quiz-using-javascript
