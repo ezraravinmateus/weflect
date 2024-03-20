@@ -10,3 +10,6 @@ Link : https://chakra-ui.com/getting-started/with-framer
 
 Get Random Question from Array
 https://www.shecodes.io/athena/10246-how-to-show-random-questions-in-a-quiz-using-javascript
+
+Using ENV in React JS Files
+https://medium.com/@bhairabpatra.iitd/env-file-in-react-js-09d11dc77924
