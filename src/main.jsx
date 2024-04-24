@@ -5,11 +5,11 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 const themeExtend = extendTheme({
     colors: {
         primary: {
-            0: "#FDFBFB",
-            10: "#F3EAEB",
-            40: "#B47E86",
-            50: "#9C5B64",
-            100: "#4A2B30",
+            0: "#FFFAFC",
+            10: "#F0CFD9",
+            40: "#B1365B",
+            50: "#73233B",
+            100: "#200A10",
         },
     },
 });
