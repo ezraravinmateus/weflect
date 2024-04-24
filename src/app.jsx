@@ -1,12 +1,16 @@
-import { Home } from "./pages/Home";
-import { Flex } from "@chakra-ui/react";
-import SplashScreen from "./components/SplashScreen";
-function App() {
+import Home from "./pages/Home";
+import { WaitList } from "./pages/WaitList";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { PageNotFound } from "./pages/PageNotFound";
+
+export default function App() {
     return (
-        <Flex backgroundColor={"primary.0"}>
-            <Home></Home>
-        </Flex>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/waiting-list" element={<WaitList />} />
+                <Route path="*" element={<PageNotFound />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
-
-export default SplashScreen(App);

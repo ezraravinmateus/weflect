@@ -13,3 +13,9 @@ https://www.shecodes.io/athena/10246-how-to-show-random-questions-in-a-quiz-usin
 
 Using ENV in React JS Files
 https://medium.com/@bhairabpatra.iitd/env-file-in-react-js-09d11dc77924
+
+Remove Elements from Array
+https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array-in-javascript
+
+Highlighting Sheets
+https://www.lido.app/tutorials/google-sheets-highlight-row-based-on-cell
