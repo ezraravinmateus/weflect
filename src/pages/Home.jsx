@@ -151,7 +151,9 @@ function Home() {
                     </Button>
                     <Button
                         onClick={
-                            counterCard >= 10 ? onOpen : incrementCounterCard
+                            counterCard >= stack.length
+                                ? onOpen
+                                : incrementCounterCard
                         }
                         marginLeft={"36px"}
                         width={"72px"}
