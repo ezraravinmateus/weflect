@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Logo from "../assets/CircleFill.png";
+import Logo from "../assets/Logogram.png";
 import { Flex } from "@chakra-ui/react";
 import SplashAnimation from "./SplashAnimation";
 
@@ -10,8 +10,7 @@ function SplashMessage() {
             height={"100vh"}
             justifyContent={"center"}
             alignItems={"center"}
-            bgColor={"primary.0"}
-        >
+            bgColor={"primary.0"}>
             <SplashAnimation></SplashAnimation>
         </Flex>
     );

@@ -30,7 +30,7 @@ import { TbWorld } from "react-icons/tb";
 
 import { useEffect, useState } from "preact/hooks";
 import { stack_ID, stack_EN } from "../function/GetRandomQuestion";
-import Logo from "../assets/CircleFill.png";
+import Logo from "../assets/Logogram.png";
 import { Dialog } from "../components/Dialog";
 import SplashScreen from "../components/SplashScreen";
 

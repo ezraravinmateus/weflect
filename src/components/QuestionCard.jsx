@@ -1,5 +1,9 @@
 import { Flex, Text, Heading } from "@chakra-ui/react";
 
+const shadowColor = {
+    white: "primary.10",
+};
+
 export const QuestionCard = ({ question }) => {
     return (
         <Flex>
@@ -22,7 +26,7 @@ export const QuestionCard = ({ question }) => {
                 borderColor={"primary.50"}
                 borderWidth={"2px"}
                 boxShadow={
-                    "8px -8px 0 -2px #F3EAEB, 8px -8px #9C5B64, 16px -16px 0 -2px #F3EAEB, 16px -16px #9C5B64"
+                    "8px -8px 0 -2px #F9EAEF, 8px -8px #73233B, 16px -16px 0 -2px #F9EAEF, 16px -16px #73233B"
                 }>
                 <Heading
                     fontSize={{ base: "16px", md: "24px" }}
