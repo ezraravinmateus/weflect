@@ -78,7 +78,7 @@ function Home() {
             <Image src={Logo} width={{ base: "100px", md: "120px" }} />
             <Menu>
                 <MenuButton
-                    color={"primary.10"}
+                    color={"primary.0"}
                     bgColor={"primary.50"}
                     variant={"unstyled"}
                     as={Button}
